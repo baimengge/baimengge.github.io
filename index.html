@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="chinese">
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="Meng Ge Bai" />
+
+
+    
+    
+
+
+<meta name="description" content="Work notes">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Loading...">
+<meta property="og:url" content="baimengge.github.io/index.html">
+<meta property="og:site_name" content="Loading...">
+<meta property="og:description" content="Work notes">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Loading...">
+<meta name="twitter:description" content="Work notes">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="Loading..." type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <style> .article { opacity: 0;} </style>
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>Loading...</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: true,
+        isPost: false,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: undefined
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Meng Ge Bai</a></h1>
+        </hgroup>
+
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://xdlrt.github.io/">Icarus</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://damonare.github.io/">Damonare</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://racaly.coding.me/">zhaoyan</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://dhyl.ga/">guoxiaofeng</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Meng Ge Bai</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Meng Ge Bai</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:123@123.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="#" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap">
+  
+    <article id="post-daikexiadan" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/10/08/daikexiadan/" class="article-date">
+      <time datetime="2016-10-08T07:50:21.000Z" itemprop="datePublished">2016-10-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/08/daikexiadan/">daikexiadan</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="代客下单-短租自驾"><a href="#代客下单-短租自驾" class="headerlink" title="代客下单-短租自驾"></a>代客下单-短租自驾</h3><ol>
+<li>代客下单valetOrdersCtrl清除需要的缓存</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//用车人号码</span></div><div class="line">   $<span class="built_in">window</span>.localStorage[<span class="string">'notifyTel_ZJ'</span>] = <span class="string">''</span>;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//判断缓存里是否有用车人电话</span></div><div class="line">   $scope.carUser.mobile_phone =$<span class="built_in">window</span>.localStorage[<span class="string">'notifyTel_ZJ'</span>]|| $scope.carUser.mobile_phone ;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//用车电话放入缓存              </span></div><div class="line">$<span class="built_in">window</span>.localStorage[<span class="string">'notifyTel_ZJ'</span>] = $(<span class="string">'#notifyTel_ZJ'</span>).val();</div></pre></td></tr></table></figure>
+<p>目的是修改电话号码时存到缓存</p>
+<p>在HTML5中，本地存储是一个window的属性</p>
+<p>存储数据的方法就是直接给window.localStorage添加一个属性:<br>例如：window.localStorage.a 或者 window.localStorage[“a”]</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-datatimepicker" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/23/datatimepicker/" class="article-date">
+      <time datetime="2016-09-23T09:58:30.000Z" itemprop="datePublished">2016-09-23</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/23/datatimepicker/">datatimepicker</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="datetimepicker-时间插件箭头无法显示和input里的图标不显示"><a href="#datetimepicker-时间插件箭头无法显示和input里的图标不显示" class="headerlink" title="datetimepicker 时间插件箭头无法显示和input里的图标不显示"></a>datetimepicker 时间插件箭头无法显示和input里的图标不显示</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"input-group date"</span>&gt;</span> --&gt;</div><div class="line">       <span class="comment">&lt;!-- 设置input为只读（readonly）状态，不能修改，可以拷贝 --&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">size</span>=<span class="string">"16"</span> <span class="attr">value</span>=<span class="string">""</span> <span class="attr">readonly</span> <span class="attr">class</span>=<span class="string">"form-control"</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"add-on"</span>&gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"icon-th"</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$(<span class="string">'.form_datetime'</span>).datetimepicker(&#123;</div><div class="line">   	format: <span class="string">'yyyy-mm-dd hh:ii'</span></div><div class="line">   &#125;);</div></pre></td></tr></table></figure>
+<p>解决办法一：<br><a href="http://eonasdan.github.io/bootstrap-datetimepicker/" target="_blank" rel="external">http://eonasdan.github.io/bootstrap-datetimepicker/</a></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">h3</span>&gt;</span>Default component<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"container"</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"row"</span>&gt;</span></div><div class="line">           <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">'col-sm-6'</span>&gt;</span></div><div class="line">               <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"form-group"</span>&gt;</span></div><div class="line">                   <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">'input-group date'</span> <span class="attr">id</span>=<span class="string">'datetimepicker1'</span>&gt;</span></div><div class="line">                       <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">'text'</span> <span class="attr">class</span>=<span class="string">"form-control"</span>/&gt;</span></div><div class="line">                       <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"input-group-addon"</span>&gt;</span></div><div class="line">                       	<span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"glyphicon glyphicon-calendar"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">                       <span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">                   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">               <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">           <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">       <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">       $(<span class="string">'#datetimepicker1'</span>).datetimepicker();</div><div class="line">   &#125;);</div></pre></td></tr></table></figure>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-error" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/22/error/" class="article-date">
+      <time datetime="2016-09-22T03:38:59.000Z" itemprop="datePublished">2016-09-22</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/22/error/">error</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="关于错误提示总结"><a href="#关于错误提示总结" class="headerlink" title="关于错误提示总结"></a>关于错误提示总结</h3><ol>
+<li><p>order.controller.js:1172 Uncaught SyntaxError: Unexpected identifier</p>
+</li>
+<li><p>ionic.bundle.js:20434 Error: [ng:areq] Argument ‘addsijiCtrl’ is not a function, got undefined</p>
+</li>
+</ol>
+<blockquote>
+<p>标点符号有误，语法错误,单词拼写</p>
+</blockquote>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-司机APP端更改代客下单出发地和目的地" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/22/司机APP端更改代客下单出发地和目的地/" class="article-date">
+      <time datetime="2016-09-22T01:53:13.000Z" itemprop="datePublished">2016-09-22</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/22/司机APP端更改代客下单出发地和目的地/">司机APP端更改代客下单出发地和目的地</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="司机APP端更改代客下单出发地和目的地"><a href="#司机APP端更改代客下单出发地和目的地" class="headerlink" title="司机APP端更改代客下单出发地和目的地"></a>司机APP端更改代客下单出发地和目的地</h3><ol>
+<li>登陆荣益租车 <a href="http://172.16.100.162/gov/Area/index.php" target="_blank" rel="external">http://172.16.100.162/gov/Area/index.php</a><br>找到从业人员信息，职务（驾驶员），登陆司机端APP;<br>vip-代客下单，分配登陆司机,找到订单详情页面：order.html</li>
+</ol>
+<p>ng-if 里的order.business_id 控制下车状态</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span> <span class="attr">ng-if</span>=<span class="string">"order.business_id&lt;5"</span>&gt;</span>至<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span> <span class="attr">ng-if</span>=<span class="string">"order.business_id&lt;5"</span>&gt;</span></div><div class="line"> 	<span class="tag">&lt;<span class="name">span</span> <span class="attr">ng-click</span>=<span class="string">"showAddress(order.aboard2)"</span> <span class="attr">class</span>=<span class="string">"Place"</span>&gt;</span>&#123;&#123;order.aboard2||'无'&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div><div class="line">   	<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"img/imge/dibiao.png"</span>&gt;</span></div><div class="line">  	<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
+<ol>
+<li>filter.js 里定义了不同下单的状态</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">	.filter(<span class="string">'businessName'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">input</span>) </span>&#123;</div><div class="line">		<span class="keyword">switch</span> (input) &#123;</div><div class="line">			<span class="keyword">case</span> <span class="string">'1'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'接机'</span>;	</div><div class="line">			<span class="keyword">case</span> <span class="string">'2'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'送机'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'3'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'接火车'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'4'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'送火车'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'5'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'半日租'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'6'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'代驾日租'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'7'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'代驾时租'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'8'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'自驾日租'</span>;</div><div class="line">			<span class="keyword">case</span> <span class="string">'19'</span>:</div><div class="line">				<span class="keyword">return</span> <span class="string">'自驾时租'</span>;</div><div class="line">			<span class="keyword">default</span>:<span class="keyword">break</span>; </div><div class="line">		&#125;</div><div class="line">	&#125;;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<ol>
+<li>自定义Filter：</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ion-item</span> <span class="attr">class</span>=<span class="string">"order-list"</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"left"</span>&gt;</span>&#123;&#123;(order.business_id | businessName) || '---'&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span> <span class="attr">ng-if</span>=<span class="string">'order.business_id&gt;=3'</span> &gt;</span>&#123;&#123;order.train_num|| '---'&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"center"</span> <span class="attr">ng-if</span>=<span class="string">'order.business_id&lt;=2'</span>&gt;</span>&#123;&#123;order.flight_num|| '---'&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">       <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"right"</span>&gt;</span>&#123;&#123;order.start_at | data&#125;&#125;<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">ion-item</span>&gt;</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>order.business_id 传入的数字以 businessName 作为筛选条件。或者显示’—‘</p>
+</blockquote>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-订单审核" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/13/订单审核/" class="article-date">
+      <time datetime="2016-09-13T03:51:07.000Z" itemprop="datePublished">2016-09-13</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/13/订单审核/">订单审核</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="订单审核（点击通过-不通过按钮）"><a href="#订单审核（点击通过-不通过按钮）" class="headerlink" title="订单审核（点击通过/不通过按钮）"></a>订单审核（点击通过/不通过按钮）</h3><ol>
+<li>找到订单审核按钮页面orderxq.html，有两个按钮（通过和不通过，点击确认或者取消执行）</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"button button-color"</span>  <span class="attr">ng-if</span>=<span class="string">"is_approval"</span> <span class="attr">ng-click</span>=<span class="string">"auditOrder(orderDetails.order_id,2)"</span> <span class="attr">style</span>=<span class="string">"background:#EB4C0F!important;"</span>&gt;</span>通过<span class="tag">&lt;/<span class="name">button</span>&gt;</span> </div><div class="line">   <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"button button-color"</span> <span class="attr">ng-if</span>=<span class="string">"is_approval"</span> <span class="attr">ng-click</span>=<span class="string">"auditOrder(orderDetails.order_id,3)"</span> <span class="attr">style</span>=<span class="string">"background:#EB4C0F!important;"</span>&gt;</span>不通过<span class="tag">&lt;/<span class="name">button</span>&gt;</span></div></pre></td></tr></table></figure>
+<ol>
+<li><p>找到order.controller.js的订单详情对应控制器OrderxqCtrl写页面上对应的ng-click=”auditOrder(orderDetails.order_id,3)” 函数</p>
+</li>
+<li><p>auditOrder函数里传入两个参数（orderDetails.order_id,3）接受（id,type）: approval=2通过/approval=3不通过</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$scope.auditOrder = <span class="function"><span class="keyword">function</span>(<span class="params">id,type</span>) </span>&#123;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>对应点击确定时候调用接口传入得参数：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> param = &#123;</div><div class="line"> verify: $<span class="built_in">window</span>.localStorage[<span class="string">'verify'</span>],<span class="comment">//验证登录身份</span></div><div class="line">  order_id: id,</div><div class="line">  approval: type</div><div class="line">                  &#125;</div></pre></td></tr></table></figure>
+<ol>
+<li>点击确定时执行onTap函数（）</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">onTap: <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</div><div class="line">              &#125;</div></pre></td></tr></table></figure>
+<p>$ionicLoading.show（）打开</p>
+<p>$ionicLoading.hide（）隐藏</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ionicLoading.show(&#123;</div><div class="line">           template: <span class="string">"审核订单..."</span></div><div class="line">                  &#125;);</div></pre></td></tr></table></figure>
+<p>获取提交接口:<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">orderDetailsFactory.auditOrder(param).then(<span class="function"><span class="keyword">function</span>(<span class="params">callback</span>) </span>&#123;</div><div class="line">                 &#125;);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>orderDetailsFactory 接口 写在services/order.service.js 里定义名字接口auditOrder</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">auditOrder: function (param) &#123;</div><div class="line">		return $http(&#123;</div><div class="line">			method:&apos;POST&apos;,</div><div class="line">			url:serverIP+&apos;/app_vip/orders.php?act=order_approval&apos;,</div><div class="line">			data:$.param(param),</div><div class="line">			headers: &#123;</div><div class="line">				&apos;Content-Type&apos;: &apos;application/x-www-form-urlencoded&apos;</div><div class="line">			&#125;</div><div class="line">		&#125;).success(function(response) &#123;</div><div class="line">			return response;</div><div class="line">		&#125;);</div><div class="line">	&#125;</div></pre></td></tr></table></figure>
+<p>$window.location.reload();  //加载页面</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-订单下拉刷新和上拉加载" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/12/订单下拉刷新和上拉加载/" class="article-date">
+      <time datetime="2016-09-12T09:05:04.000Z" itemprop="datePublished">2016-09-12</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/12/订单下拉刷新和上拉加载/">订单下拉刷新和上拉加载</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="订单下拉刷新和上拉加载"><a href="#订单下拉刷新和上拉加载" class="headerlink" title="订单下拉刷新和上拉加载"></a>订单下拉刷新和上拉加载</h3><ol>
+<li>找到订单最外层页面 tabs.html 包括：首页-订单-设置<br> 找到“订单”</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ion-tab</span> <span class="attr">title</span>=<span class="string">"订单"</span> <span class="attr">icon-off</span>=<span class="string">"ion-ios-speedometer-outline"</span> <span class="attr">icon-on</span>=<span class="string">"ion-ios-speedometer"</span> <span class="attr">href</span>=<span class="string">"#/tab/orderlist"</span>&gt;</span></div><div class="line">	<span class="tag">&lt;<span class="name">ion-nav-view</span> <span class="attr">name</span>=<span class="string">"tab-orderlist"</span>&gt;</span><span class="tag">&lt;/<span class="name">ion-nav-view</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ion-tab</span>&gt;</span></div></pre></td></tr></table></figure>
+<ol>
+<li><p>创建订单下所包含的页面 tab-orderlist.html加载订单包括下拉刷新和上拉加载</p>
+</li>
+<li><p>下拉刷新：ion-refresher<br> 使用指令ion-refresher可以为滚动容器（ion-scroll或ion-content）增加 拉动刷新/pull-to-refresh的功能：</p>
+</li>
+</ol>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ion-refresher</span> <span class="attr">on-refresh</span>=<span class="string">"doRefresh()"</span> <span class="attr">pulling-text</span>=<span class="string">"下拉刷新..."</span> <span class="attr">refreshing-icon</span>=<span class="string">"ion-load-a"</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ion-refresher</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>把它作为ionContent 或 ionScroll元素的第一个子元素。</p>
+<p>注意在刷新完毕后，应当使用作用域的$broadcast()方法通知框架：<br>当刷新完成时，从你的控制器中广播（$broadcast）出 ‘scroll.refreshComplete’事件。</p>
+<h3 id="on-refresh-”doRefresh-”"><a href="#on-refresh-”doRefresh-”" class="headerlink" title="on-refresh=”doRefresh()”"></a>on-refresh=”doRefresh()”</h3><p>当用户向下拉动足够的距离并松开时，执行此表达式<br>当用户下拉到一定程度然后开始刷新时触发。</p>
+<p>找到 orderlistCtrl：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$scope.doRefresh = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">       param.page = <span class="number">1</span>;<span class="comment">//加载1页</span></div><div class="line">       getList(param);<span class="comment">//请求列表（传入参数）</span></div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<p>创建的参数param:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> param = &#123;		</div><div class="line">	verify:$<span class="built_in">window</span>.localStorage[<span class="string">'verify'</span>], <span class="comment">//身份验证</span></div><div class="line">	user_id:$<span class="built_in">window</span>.localStorage[<span class="string">'user_id'</span>], </div><div class="line">	page: <span class="number">1</span> <span class="comment">//传入页数</span></div><div class="line">   &#125;;</div></pre></td></tr></table></figure>
+<h3 id="pulling-text-”下拉刷新…”"><a href="#pulling-text-”下拉刷新…”" class="headerlink" title="pulling-text=”下拉刷新…”"></a>pulling-text=”下拉刷新…”</h3><p>当用户下拉时显示的文字。</p>
+<p>4.上拉加载更多</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">ion-infinite-scroll</span> <span class="attr">ng-if</span>=<span class="string">"isLoadMore"</span> <span class="attr">on-infinite</span>=<span class="string">"loadMore()"</span> <span class="attr">class</span>=<span class="string">"carShar-loadMore"</span> &gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">ion-infinite-scroll</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>当没有更多数据加载时，就可以用一个简单的方法阻止无限滚动 ng-if=”isLoadMore”</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$scope.isLoadMore = true;</div></pre></td></tr></table></figure>
+<p>//广播消息，通知上推加载更多的代码执行完毕<br>$scope.$broadcast(‘scroll.infiniteScrollComplete’);</p>
+<p>$scope.$broadcast(“scoll.refreshComplete”);</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-订单状态不受时间限制" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/12/订单状态不受时间限制/" class="article-date">
+      <time datetime="2016-09-12T05:52:55.000Z" itemprop="datePublished">2016-09-12</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/12/订单状态不受时间限制/">订单状态不受时间限制</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h3 id="订单状态不受时间限制"><a href="#订单状态不受时间限制" class="headerlink" title="订单状态不受时间限制"></a>订单状态不受时间限制</h3><ol>
+<li><p>订单主页 index.html 当前订单绑定 ng-click时间传入参数（item）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;ion-item class=&apos;item yr-name&apos; ng-repeat=&quot;item in todayList&quot; ng-click=&quot;detail(item)&quot;&gt;&lt;/ion-item&gt;</div></pre></td></tr></table></figure>
+</li>
+<li><p>状态页面 order.html (不受时间限制，显示点击状态)<br>控制状态显示的是‘服务用车’的 button5.state</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"> &lt;li style=&quot;margin-top:10px;&quot; ng-class=&quot;&#123;active:!button5.state&#125;&quot; class=&quot;&quot;&gt; &lt;button class=&quot;ser-btn&quot; ng-click=&quot;start()&quot; ng-disabled=&quot;button5.state&quot; ng-if=&quot;button2.state||!button1.state&quot;&gt;</div><div class="line">&lt;/li&gt;</div></pre></td></tr></table></figure>
+</li>
+<li><p>控制该页面的 order.controllers.js 更改 judgeState（）；</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">judgeState($stateParams.order_start_time); //根据订单时间判断是否可以出车</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>judgeState（）代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">function judgeState(time) &#123;</div><div class="line"> // if (moment(time).diff(moment(), &apos;m&apos;) &gt; 240) &#123;</div><div class="line">		 //  $scope.button5.state = true;// &#125;</div><div class="line">           return true</div><div class="line">      &#125;</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>注意：if()被禁止后，状态可更改为可点击状态。</p>
+</blockquote>
+<h3 id="judgeState（）函数"><a href="#judgeState（）函数" class="headerlink" title="judgeState（）函数"></a>judgeState（）函数</h3><p>if 里的 moment(time) 为下单时间； moment() 为当前时间</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/08/hello-world/" class="article-date">
+      <time datetime="2016-09-08T03:14:20.306Z" itemprop="datePublished">2016-09-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/08/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-helloeveryone" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/09/08/helloeveryone/" class="article-date">
+      <time datetime="2016-09-08T01:37:07.000Z" itemprop="datePublished">2016-09-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/09/08/helloeveryone/">CSS水平居中总结</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="CSS水平居中总结"><a href="#CSS水平居中总结" class="headerlink" title="CSS水平居中总结"></a>CSS水平居中总结</h2><h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><p>如果被设置元素为文本、图片等行内元素时，水平居中是通过给父元素设置 text-align:center 来实现的。</p>
+<p>html代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span> </div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"txtCenter"</span>&gt;</span>我想要在父容器中水平居中显示。<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>css代码：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="undefined">  </span></div><div class="line">.txtCenter&#123;</div><div class="line">    text-align:center; </div><div class="line">&#125; </div><div class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="块状元素"><a href="#块状元素" class="headerlink" title="块状元素"></a>块状元素</h3><p>定宽块状元素</p>
+<p>定宽块状元素：块状元素的宽度width为固定值。</p>
+<p>满足定宽和块状两个条件的元素是可以通过设置“左右margin”值为“auto”来实现居中的。</p>
+<p>html代码：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span>  </div><div class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>我是定宽块状元素，哈哈，我要水平居中显示。<span class="tag">&lt;/<span class="name">div</span>&gt;</span> </div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>css代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;style&gt; </div><div class="line">div&#123;    </div><div class="line">    border:1px solid red;/*为了显示居中效果明显为 div 设置了边框*/        </div><div class="line">    width:200px;/*定宽*/    </div><div class="line">    margin:20px auto;/* margin-left 与 margin-right 设置为 auto */ </div><div class="line">&#125; </div><div class="line"> &lt;/style&gt;</div></pre></td></tr></table></figure></p>
+<p>也可以写成：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">margin-left:auto; </div><div class="line">margin-right:auto;</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>注意：元素的“上下 margin” 是可以随意设置的。</p>
+</blockquote>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+  
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016 Meng Ge Bai
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>
